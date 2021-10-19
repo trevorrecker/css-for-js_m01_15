@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: hsl(0deg, 0%, 60%);
+}
+
+h1,
+h2 {
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 16px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+  font-weight: bold;
+}
+
+/* Prevent content from taking up more than the max-width */
+.max-width-wrapper {
+  max-width: 720px;
+  margin: 0px auto;
+  padding: 0px 32px;
+}
+
+/* Content container */
+.card {
+  background-color: hsl(0deg, 0%, 100%);
+  border-bottom: 8px solid hsl(0deg, 0%, 40%);
+  margin: 0 -32px;
+  padding: 16px 32px;
+}
+
+/* Indented, emphasized heading */
+.indented-heading {
+  max-width: max-content;
+  margin-left: -48px;
+  margin-top: -8px;
+  padding: 24px 48px;
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+}
+
+/* Page Header */
+header {
+  background-color: hsl(0deg, 0%, 100%);
+  padding-top: 96px;
+  padding-bottom: 32px;
+  border-bottom: 8px solid hsl(0deg, 0%, 40%);
+}
+
+.title {
+  margin-bottom: 48px;
+}
+
+.intro-chunk {
+  max-width: 400px;
+}
+
+/* Increasized size and spacing in intro */
+.intro-chunk p {
+  font-size: 1.25rem;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+/* Add space around the main content area */
+main {
+  padding: 96px 0px;
+}
